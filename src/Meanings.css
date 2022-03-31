@@ -4,6 +4,9 @@
 }
 
 .Meanings .example {
-    font-size: 13px;
+  font-size: 13px;
 }
 
+.Meanings .synonymsHeading {
+  font-size: 13px;
+}
