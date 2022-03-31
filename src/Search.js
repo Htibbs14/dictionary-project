@@ -1,17 +1,18 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Results from "./Results";
 import "./Search.css";
 
 export default function Search() {
-  let [searchWord, setSearchWord] = useState();
+  let [searchWord, setSearchWord] = useState("");
+  let [results, setResults] = useState("");
 
   function handleResponse(response) {
-    console.log(response.data);
+    setResults(response.data[0]);
   }
 
   function wordSearch(event) {
     event.preventDefault();
-    alert(`Searching for ${searchWord}`);
 
     let apiURL = `https://api.dictionaryapi.dev/api/v2/entries/en/${searchWord}`;
     axios.get(apiURL).then(handleResponse);
@@ -40,6 +41,7 @@ export default function Search() {
           </div>
         </form>
       </div>
+      <Results results={results} />
     </div>
   );
 }
