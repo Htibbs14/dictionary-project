@@ -10,3 +10,7 @@
 .Meanings .synonymsHeading {
   font-size: 13px;
 }
+
+.Meanings .definition {
+  margin-bottom: 0;
+}
