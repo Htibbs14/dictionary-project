@@ -1,3 +1,8 @@
+.App {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 .App h1 {
   margin: 50px 0 20px 0;
   text-align: center;
