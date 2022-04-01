@@ -19,12 +19,14 @@ export default function Meanings(props) {
               <span>
                 <Synonyms synonyms={props.meaning.synonyms} />
               </span>
+              <br />
             </div>
           );
         } else {
           return (
             <div key={index}>
               <p className="definition">{definition.definition}</p>
+              <br />
             </div>
           );
         }
