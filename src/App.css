@@ -1,19 +1,22 @@
 .App h1 {
-  margin: 50px 0 30px 0;
+  margin: 50px 0 20px 0;
   text-align: center;
+  font-weight: 700;
 }
 
 .App h2 {
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
+  color: rgb(206, 113, 235);
 }
 
 .App .footer {
   text-align: center;
   font-size: small;
-  padding: 20px 0 30px 0;
+  padding: 0 0 20px 0;
 }
 
 .App a {
   text-decoration: none;
+  color: rgb(189, 104, 214);
 }
