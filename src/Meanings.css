@@ -16,6 +16,8 @@
 
 .Meanings .word {
   color: rgb(206, 113, 235);
+  font-family: "Abril Fatface", cursive;
+  font-weight: 500;
 }
 
 hr {

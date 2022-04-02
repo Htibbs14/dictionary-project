@@ -1,9 +1,10 @@
 .Results .word-result {
   text-align: left;
-  font-size: 36px;
-  font-weight: 650;
+  font-size: 40px;
+  font-weight: 500;
   margin: 0 0 20px 0;
   color: black;
+  font-family: "Abril Fatface", cursive;
 }
 
 .Results-container {
