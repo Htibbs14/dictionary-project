@@ -10,6 +10,13 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.Search .btn:hover {
+  border: 1px solid rgb(206, 113, 235);
+  background-color: white;
+  color: rgb(206, 113, 235);
+  transition: all 80ms ease-in-out;
+}
+
 .Search .search-bar {
   border: 1px solid rgb(206, 113, 235);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
