@@ -4,16 +4,17 @@
 }
 
 .Search .btn {
-  background-color: rgb(206, 113, 235);
-  border: none;
+    border: 1px solid rgb(206, 113, 235);
+  background-color: white;
+  color: rgb(206, 113, 235);
   font-weight: 500;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .Search .btn:hover {
-  border: 1px solid rgb(206, 113, 235);
-  background-color: white;
-  color: rgb(206, 113, 235);
+    background-color: rgb(206, 113, 235);
+  border: none;
+  color: white;
   transition: all 80ms ease-in-out;
 }
 
